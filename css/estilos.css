@@ -1,0 +1,26 @@
+/*.caja1 {
+  border: 10px solid blue;
+  font-size: 100px;
+}*/
+/*
+.caja {
+  background-color: yellow;
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  padding: 5px;
+  margin: 50px 10px;
+}
+
+.covid {
+  background: black;
+}*/
+
+body {
+  width: 100%;
+  border: 50 px solid blue;
+}
+
+.video-rels {
+  border: 10px solid red;
+}
