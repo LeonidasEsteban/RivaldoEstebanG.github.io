@@ -1,26 +1,122 @@
-/*.caja1 {
-  border: 10px solid blue;
-  font-size: 100px;
-}*/
-/*
-.caja {
-  background-color: yellow;
-  border: 1px solid black;
-  width: 100px;
-  height: 100px;
-  padding: 5px;
-  margin: 50px 10px;
+/*body{
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  margin: 10px;
+  background-color: #1b2127;;
+
 }
 
-.covid {
-  background: black;
+h1 strong{
+  color: blue;
+ 
+}
+header{
+  
+
+}
+.title{
+  color:white;
+
+}
+
+.hero{
+  display: flex;
+  font-size: 25px;
+  /*border: 5px solid red;
+  padding: 10px;
+  background-color: #1b2127;
+  
+}
+
+.pasatiempos{
+  padding: 10px;
+  border: 5px solid blue;
+  margin: 10px 0px;
+  display: flex;
+  text-align: center;
+  width: 300;
+  height: 330;
+  
+}
+
+
+.estudio{
+  border: 1px solid black;
+}
+.video{
+  display: block;
+}
+
+.mentor{
+  padding:10px; 
+  border: 5px solid green;
+  margin: 10px 0;
+}
+
+.opinion{
+  border:3px solid; 
 }*/
 
 body {
-  width: 100%;
-  border: 50 px solid blue;
+  font-family: "source sans pro", sans-serif;
+  margin: 0px;
+  padding: 15px;
+  
 }
 
-.video-rels {
-  border: 10px solid red;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Fjalla one", sans-serif;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1.5;
+  letter-spacing: -0.2px;
+  color: white;
+  margin: 0px;
+}
+
+h1 strong {
+  color: #026fff;
+}
+
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: "source sans pro", sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.hero{
+  height: 350px;
+  background-position-x: right;
+  background-color: #1b2127;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /*flex-wrap: wrap;*/
+}
+
+.hero-image {
+  object-fit: cover;
+}
+
+
+.container {
+  flex: 1;
+  margin: 0 auto;
+  display: flex;
+  justify-content: inherit;
+  align-items: inherit;
+  height: inherit;
+  flex-wrap: inherit;
 }

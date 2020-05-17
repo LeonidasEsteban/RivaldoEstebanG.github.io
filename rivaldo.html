@@ -5,67 +5,134 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>RivadoEsteban</title>
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 
-<body>
-  <header>
-    <nav>
-      <ol>
-        <li>
-          <a href="">Principal</a>
-        </li>
-        <li>         
-        <a href="">Pasatiempos</a>
-        </li>
-        <li>
-          <a href="">Mentor</a>
-        </li>
-        <li>
-          <a href="">Agradecimiento</a>
-        </li>
-        
-      </ol>
-    </nav>
+<body >
+  <header class="header"> 
+    <div class="container">  
+      <figure class="logo">
+        <img src=""  height="50px" alt="">
+      </figure>
+      <nav class="menu">
+        <ol>
+          <li>
+            <a class="link" href="#principal">Principal</a>
+          </li>
+          <li>         
+          <a class="link" href="#pasatiempos">Pasatiempos</a>
+          </li>
+          <li>
+            <a class="link" href="#mentor">Mentor</a>
+          </li>
+          <li>
+            <a class="link" href="#opinion">Agradecimiento</a>
+          </li>
+        </ol>
+      </nav>
+    </div>
 
   </header>
-  <section>
-    <h1>
-      Hola soy <strong>Rivaldo</strong> <br> estoy aprendiendo a <strong>Programar</strong>
-       <br> Me gusta la <strong>música</strong>Y especialmente<br> <strong>Amo</strong> el electro    
-    </h1>
-    <img src="imagenes/familia.jpg" alt="">
+  <section id="principal" class="hero">
+    <div class="container">
+      <h1 >
+        Hola soy <strong>Rivaldo</strong> <br> estoy aprendiendo a <strong>Programar</strong>
+         <br> Me gusta la <strong>música</strong>Y especialmente<br> <strong>Amo</strong> el electro    
+      </h1>
+      <img src="imagenes/familia.jpg" alt="imagen princial" width="500px" height="300px ">
+    </div>
   </section>
-  <section>
-    <h2>Pasatiempos</h2>
-    <article>
-      <H3>Estudios </H3>
-      <H6>Aprendiendo a Programar</H6>
-      <p><small><strong>Plataforma:</strong> <a href="https://platzi.com/">Platzi.com</a></small></p>
-      <p>
-        Empece a estudiar en platzi hace ya practicamente 2 meses y ya llevo 3 cursos aprendidos tales como: Git y Github, Desarrollo Web, Responsive design; estoy en camino 
-        a ser un desarrollador fronted al igual que mi hermano <strong>Leonidas</strong> que si no fuera por él nada de esto sucederia hoy por hoy. Es mi ejemplo a seguir y mi gran orgullo.
-        <strong>Platzi</strong>  es una buena plataforma de enseñanza digital y todo esto es por sus grandes profesioanles de la enseñanza que les encanta lo que hacen y es lo que predican.
-      </p>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/NKtTJi8Bp6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    </article>
-    <article>
-      <h3>Deporte</h3>
-      <h5>Futbol</h5>
-      <P>Desde que tengo uso de razon jugue este hermozo deporte y que hasta el momento es lo que me llena el alma. Peculiarmente me llamo Rivaldo como el fabuloso jugar de brazil (si!todos me sacan esa referencia) Felizmente juego maso maso y le puedo hacer honor al nombre :)</P>
-      <img src="imagenes/futbol.jpg" alt="">
-    </article>
-    <article>
-      <h3>Musica</h3>
-      <p>Generos favoritos</p>
-      <p>Artistas favoritos</p>
-    </article>
-  </section>
-  <section>mentor
-    <h3>Leonidas Esteban</h3>
-    <h6>#NoteRindas</h6>
+  <h2 >Pasatiempos</h2>
+  <section id="pasatiempos" class="hobbies">
+    <div class="container">
+      
+      <article class="studies">
+        <div class="hobbies-details">
+          <H3 class="hobbies-title">Estudios</H3>
+          <p class="hobbies-url"><small><strong>Plataforma:</strong> <a href="https://platzi.com/">Platzi.com</a></small></p>
+          <p class="hobbies-description" >Empece a estudiar en platzi hace ya practicamente 2 meses y ya llevo 3 cursos aprendidos tales como: Git y Github, Desarrollo Web, Responsive design; estoy en camino 
+            a ser un desarrollador fronted al igual que mi hermano <strong>Leonidas</strong> que si no fuera por él nada de esto sucederia hoy por hoy. Es mi ejemplo a seguir y mi gran orgullo.
+            <strong>Platzi</strong>  es una buena plataforma de enseñanza digital y todo esto es por sus grandes profesioanles de la enseñanza que les encanta lo que hacen y es lo que predican.
+          </p>
+        </div>
+        <iframe class="video" width="500" height="280" src="https://www.youtube.com/embed/NKtTJi8Bp6I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </article>
 
+      <article class="studies">
+        <div class="hobbies-details">
+          <H3 class="hobbies-title">Deporte</H3>
+          <p class="hobbies-url"><small><strong>Plataforma:</strong> <a href="https://platzi.com/">Platzi.com</a></small></p>
+          <p class="hobbies-description" >Empece a estudiar en platzi hace ya practicamente 2 meses y ya llevo 3 cursos aprendidos tales como: Git y Github, Desarrollo Web, Responsive design; estoy en camino 
+            a ser un desarrollador fronted al igual que mi hermano <strong>Leonidas</strong> que si no fuera por él nada de esto sucederia hoy por hoy. Es mi ejemplo a seguir y mi gran orgullo.
+            <strong>Platzi</strong>  es una buena plataforma de enseñanza digital y todo esto es por sus grandes profesioanles de la enseñanza que les encanta lo que hacen y es lo que predican.
+          </p>
+        </div>
+        <figure>
+          <img src="imagenes/futbol.jpg" alt="futbol" width="500" height="280px">
+        </figure>
+      </article>
+
+      <article class="studies">
+        <div class="hobbies-details">
+          <H3 class="hobbies-title">Dota2</H3>
+          <p class="hobbies-url"><small><strong>Plataforma:</strong> <a href="https://platzi.com/">Platzi.com</a></small></p>
+          <p class="hobbies-description" >Empece a estudiar en platzi hace ya practicamente 2 meses y ya llevo 3 cursos aprendidos tales como: Git y Github, Desarrollo Web, Responsive design; estoy en camino 
+            a ser un desarrollador fronted al igual que mi hermano <strong>Leonidas</strong> que si no fuera por él nada de esto sucederia hoy por hoy. Es mi ejemplo a seguir y mi gran orgullo.
+            <strong>Platzi</strong>  es una buena plataforma de enseñanza digital y todo esto es por sus grandes profesioanles de la enseñanza que les encanta lo que hacen y es lo que predican.
+          </p>
+        </div>
+        <figure>
+          <img src="imagenes/dota2.jpg" alt="dota2" width="500px" height="280px" >
+        </figure>
+      </article>
+
+    </div>
+
+
+
+
+
+
+
+
+
+      <!--<article>
+        <h3 style="text-decoration: underline;">Deporte</h3>
+        <h5>Futbol</h5>
+        <P>Desde que tengo uso de razon jugue este hermozo deporte y que hasta el momento es lo que me llena el alma. Peculiarmente me llamo Rivaldo como el fabuloso jugar de brazil (si!todos me sacan esa referencia) Felizmente juego maso maso y le puedo hacer honor al nombre :)</P>
+        <img src="imagenes/futbol.jpg" alt="" width="650" height="500">
+      </article>
+      <h3 style="text-decoration: underline;">Musica</h3>
+      <article>
+        <p>Generos favoritos</p>
+        <p>Artistas favoritos</p>
+      </article>-->
   </section>
-  <footer>footer</footer>
+  <h2>Leonidas Esteban (#No te Rindas)</h2>
+  <section id="mentor" class="mentor">
+    <div>
+      <article>
+        <div>
+          <p>Él es mi hermano! <strong>Leonidas Esteban</strong> mi mayor inspiración en la vida, siempre me cuido y estando lejos siempre esta cerca. Su esfuerzo y valentia lo llevo a ser hoy lo que es, realmente impresionante. 
+            Un claro ejemplo de dedicación y por lo cual yo sigo aprendiendo día a día. Y la mas grande lección que predica es #NoTeRindas.</p>
+        </div>
+      </article>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5f5Ig_U2Bpk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <figure>
+        <img src="imagenes/leonidas.jpg" alt="hermano leonidas" width="500px">
+      </figure>
+    </div>
+    
+    
+  </section>
+  <section id="opinion" class="opinion">
+    <form action="/esteban_x8@hotmail.com/">
+      <h3>Mandame tu opinión</h3>
+      <label for="">¿Qué opinas?</label>
+      <input type="datetime" placeholder="Escribe lo que opines" >
+      <button>Enviar</button>
+    </form>
+  </section>
 </body>
 
 </html>
