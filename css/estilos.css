@@ -62,7 +62,7 @@ body {
   font-family: "source sans pro", sans-serif;
   margin: 0px;
   padding: 15px;
-
+  width: 1024px;
   
 }
 
@@ -76,20 +76,28 @@ h6 {
   font-weight: bold;
 }
 
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-decoration: underline;
+}
+
 h1 {
   font-size: 30px;
   line-height: 1.5;
   letter-spacing: -0.2px;
-  color: white;
+  color: ;
   margin: 0px;
 }
 
 h1 strong {
-  color: turquoise;
+  color: blue;
 }
 
 h2 {
-  color: #026fff;
+  color: blue;
   text-transform: uppercase;
   font-family: "source sans pro", sans-serif;
   font-weight: bold;
@@ -97,30 +105,97 @@ h2 {
   margin-bottom: 40px;
 }
 
+.name{
+  color: Turquoise;
+  background-color: cornflowerblue;
+  margin: 1em 0 1em 0;
+  text-align: center;
+  justify-content: center;
+  font-size: 25px;
+  
+}
 .hero{
   height: 400px;
   background-position-x: right;
-  background-color: rgb(89, 89, 100);
-  display: flex;
+  background-color:;
   align-items: center;
   justify-content: space-between;
   padding: 1em;
 }
 
 .hero-image {
-  padding-left: 15px;
-  border-radius: 1em;
+  margin-left: 15px;
+  /*border: 1px solid black;*/
+  
 }
 
+.hobbies{
+  background-color: ;
+  color: ;
+  font-size: 20px;
+}
 .menu {
-  display: ;
+  border: 1px solid red;
+  display: block;
 
 }
-.container {
+
+.flexbox{
+  display: flex;
+
+}
+
+.box{
+  
+  width: 300px;
+  height: 35px;
+  padding-right: 33px;
+  text-align: center;
+  justify-content: center;
+  margin: 1em 0 1em 0;
+  color: white;
+  background-color:#1b2127;
+  font-size: 20px;
+}
+
+.head{
   flex: 1;
   margin: 0 auto;
   display: flex;
   align-items: inherit;
   height: inherit;
  
+}
+
+.container1{
+  display: block;
+  padding: 10px;
+ 
+}
+
+.studies{
+  display: flex;
+  width: 1000px;
+  border: 1px solid;
+  border-radius: 1em;
+  padding: 10px;
+  margin: 10px 0; 
+}
+
+.hobbies-details{
+ 2
+}
+
+.video{
+
+}
+
+.footer{
+  background-color: gray;
+  color:white ;
+  text-align: center;
+  justify-content: center;
+  margin: 1em 0 1em 0;
+  font-size: 25px;
+
 }
