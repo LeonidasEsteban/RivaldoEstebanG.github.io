@@ -60,10 +60,11 @@ header{
 
 body {
   font-family: "source sans pro", sans-serif;
-  margin: 0px;
-  padding: 15px;
-  width: 1024px;
-  
+  /*margin: 1em 0 1em 0;*/
+  /* margin: 100px;
+  padding: 15px;*/
+
+  /*margin-left: 130px;*/
 }
 
 h1,
@@ -89,7 +90,9 @@ h1 {
   line-height: 1.5;
   letter-spacing: -0.2px;
   color: ;
-  margin: 0px;
+  padding-left: 5em;
+  justify-content: center;
+  width: 600px;
 }
 
 h1 strong {
@@ -105,31 +108,37 @@ h2 {
   margin-bottom: 40px;
 }
 
-.name{
-  color: Turquoise;
-  background-color: cornflowerblue;
-  margin: 1em 0 1em 0;
+.name {
+  font-size: 25px;
+  background-color: gray;
+  color: white;
   text-align: center;
   justify-content: center;
+  margin: 1em 0 1em 0;
   font-size: 25px;
-  
 }
-.hero{
+
+.name-principal {
+  border: 1px solid;
+}
+
+.hero {
   height: 400px;
   background-position-x: right;
-  background-color:;
+  background-color: ;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   padding: 1em;
 }
 
 .hero-image {
-  margin-left: 15px;
+  justify-content: center;
+  display: flex;
+  margin-left: ;
   /*border: 1px solid black;*/
-  
 }
 
-.hobbies{
+.hobbies {
   background-color: ;
   color: ;
   font-size: 20px;
@@ -137,65 +146,85 @@ h2 {
 .menu {
   border: 1px solid red;
   display: block;
-
 }
 
-.flexbox{
+.flexbox {
   display: flex;
-
+  justify-items: center;
+  text-align: center;
+  /*padding-left: 9em;*/
 }
 
-.box{
-  
+.box {
   width: 300px;
-  height: 35px;
-  padding-right: 33px;
+  height: 45px;
+  /*padding-right: 33px;*/
   text-align: center;
   justify-content: center;
   margin: 1em 0 1em 0;
-  color: white;
-  background-color:#1b2127;
   font-size: 20px;
+  border: 1px solid;
+  border-radius: 1em;
 }
 
-.head{
-  flex: 1;
-  margin: 0 auto;
+.box2 {
+  color: black;
+  font-size: 25px;
+}
+.head {
+  border: 1px solid;
+  /*flex: 1;*/
+
   display: flex;
   align-items: inherit;
   height: inherit;
- 
 }
 
-.container1{
+.container1 {
   display: block;
   padding: 10px;
- 
 }
 
-.studies{
+.studies {
   display: flex;
-  width: 1000px;
   border: 1px solid;
   border-radius: 1em;
   padding: 10px;
-  margin: 10px 0; 
+  margin: 10px 0;
 }
 
-.hobbies-details{
- 2
+.hobbies-details {
 }
 
-.video{
-
+.video {
 }
 
-.footer{
+.footer {
   background-color: gray;
-  color:white ;
+  color: white;
   text-align: center;
   justify-content: center;
   margin: 1em 0 1em 0;
   font-size: 25px;
+}
 
+.mentor {
+  border: 1px solid;
+}
+
+.mentor-p {
+  display: block;
+  border: 1px solid;
+  padding: 10px;
+  margin: 10px 10px;
+  font-size: 20px;
+}
+
+.mentor-t {
+  display: flex;
+}
+
+.mentor-img {
+  display: flex;
+  width: 500px;
 }
